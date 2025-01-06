@@ -1,0 +1,73 @@
+# +###----------------------------------------------###+ #
+# <#            AmazingTowers - v3.0_beta3            #> #
+# <#             Author: Pato14, katanya04            #> #
+# +###----------------------------------------------###+ #
+
+player: jugador
+players: jugadores
+joinMessage: '&a{Player} &7entro a la partida &7(Jugadores: &a%online_players%&7)'
+quitMessage: '&c{Player} &7dejo la partida'
+joinTeam: '{Color}{Player} &7entro al equipo {Color}&l{Team}&7!'
+selectTeam: '&7Te uniste al{Color}&l equipo {Team}&7!'
+enterSpectatorMode: '&7Modo espectador activado %newLine%&7Para volver usa &a/towers&f
+  spectator'
+leave: '&7Abandonaste el{Color}&l equipo {Team}&7!'
+alreadyJoinedTeam: '&7Ya estas en el{Color}&l equipo {Team}&7!'
+unbalancedTeam: '&cNo puedes unirte a este equipo porque esta desbalanceado'
+notEnoughPlayersCaptains: '&cNo hay suficientes jugadores para escoger capitanes,
+  la partida empezara ahora'
+cantJoinInCaptainsMode: '&cNo puedes unirte a este equipo, los capitanes escogeran
+  los equipos'
+captainSelected: '{Player} es el capitan del equipo {Color}{Team}'
+currentTurn: Le toca escoger a {Color}{Captain}
+notYourTurn: '&cNo es tu turno'
+choosePlayer: '{Color}{Captain}&r escogio a &l{Player}'
+teamReady: Equipo {Color}{Team}&r listo
+selectKit: '&7Kit %kitName% seleccionado'
+buyKit: '&7Has comprado el kit %kitName%'
+notEnoughMoney: '&cNo tienes suficiente dinero'
+kitsDisabled: '&cLos kits estan desactivados en esta partida'
+tryingToEditNotOwnedKit: '&cNo posees este kit'
+filledChest: '&eLos cofres han sido rellenados'
+minutesRemaining: '&eLa partida termina en: &b{count} minutos'
+secondsRemaining: '&eLa partida termina en: &b{count} segundos'
+openingEnemyChest: '&cNo puedes abrir los cofres del equipo enemigo'
+trollingTeammates: '&c&lNo fastidies a tus compañeros!'
+serverRestart:
+  enabled: true
+  message: '&aSaliendo de la partida...'
+gameStart:
+  title:
+    enabled: true
+    titleFiveOrLessSec: '&e&l{count}'
+    subtitleFiveOrLessSec: Preparate para combatir!
+  start: '&7La partida comenzara en &a{count} &7{seconds}'
+  seconds: segundos
+  second: segundo
+  notEnoughPlayers: '&cHacen falta mas jugadores para comenzar'
+deathMessages:
+  knownKiller: '{Color}{Player} &7fue asesinado por {ColorKiller}{Killer}'
+  knownKillerProjectile: '{Color}{Player} &7fue asesinado por {ColorKiller}{Killer}&r
+    ({Distance}&r bloques)'
+  unknownKiller: '{Color}{Player} &7murio'
+  finalKillPrefix: '&b&lKILL FINAL: '
+goldenGoal:
+  titles:
+    enabled: true
+    title: '&c&lSe acabo el tiempo!'
+    subTitle: '&6&lGol de oro!'
+  eliminated: '&cHas sido eliminado'
+scorePoint:
+  point: '{Color}{Player} &7anoto un punto.'
+  pointBedwarsStyle: '{Color}&l{Player} &r&7anoto un punto en la base {ColorTeamScored}{TeamScored}&7!'
+  setScoresCommand: La puntuacion fue modificada por un admin a {Scores}
+  title:
+    enabled: true
+    noRespawnTitle: '&cHas perdido el respawn!'
+win:
+  titles:
+    enabled: true
+    winTitle: '{Color}&l{Team}'
+    winSubTitle: '&7gana el juego!'
+  chatMessage: '&7El equipo {Color}&l{Team} &7gana el juego!'
+kickPlayersAtEndOfMatch: '{Color}&lGana el {Team}! %newLine%  &7Gracias por jugar!'
