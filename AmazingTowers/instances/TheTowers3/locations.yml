@@ -6,8 +6,8 @@
 LOCATIONS:
   GENERAL:
     MAP_BORDER:
-    - TheTowers3;37;37;-58
-    - TheTowers3;-9;0;66
+    - TheTowers3;43;37;-58
+    - TheTowers3;-15;0;66
     GENERATORS:
     - item:
       - ==: org.bukkit.inventory.ItemStack
