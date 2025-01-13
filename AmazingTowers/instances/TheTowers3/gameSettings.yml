@@ -1,0 +1,58 @@
+# +###----------------------------------------------###+ #
+# <#            AmazingTowers - v3.0_beta2            #> #
+# <#             Author: Pato14, katanya04            #> #
+# +###----------------------------------------------###+ #
+
+
+rules:
+  grief: 'false'
+  protectPoint: 'false'
+  emerald: 'true'
+  redstone: 'true'
+  coal: 'true'
+  lapislazuli: 'true'
+  balancedTeams: 'true'
+  bow: 'true'
+  ironArmor: 'true'
+  water: 'true'
+  potsAndApple: 'true'
+  enderPearl: 'true'
+  tnt: 'true'
+  enchants: 'true'
+  kits: 'true'
+  bedwarsStyle: 'false'
+  explosiveChicken: 'false'
+  captains: 'false'
+  hunger: 'false'
+whitelist:
+  activated: 'false'
+blacklist:
+  activated: 'false'
+timer:
+  activated: 'false'
+  time: '40:00'
+  message: 'Tiempo: %time%'
+database:
+  database: Amistoso
+refill:
+  activated: 'true'
+  time: 01:00
+points:
+  pointsToWin: '10'
+  livesBedwarsMode: '10'
+itemOnKill:
+  activated: 'true'
+  item:
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+generators:
+  activated: 'true'
+  waitTimeSeconds: '5'
+respawnInvincibility:
+  activated: 'true'
+  timeInSeconds: '4'
+possibleCaptains:
+  activated: 'true'
+  players:
+  - none
+  - none
