@@ -20,8 +20,8 @@ LOCATIONS:
         type: EXP_BOTTLE
       coords: TheTowers1;0.5;35;-13.5;90.41275;12.149961
     MAP_BORDER:
-    - TheTowers1;96;37;27
-    - TheTowers1;-93;0;-24
+    - TheTowers1;92;37;22
+    - TheTowers1;-92;0;-22
     LOBBY: TheTowers1;0.5;118;0.5;179.36572;0.90002584
   RED:
     SPAWN: TheTowers1;84.5;12;0.5;89.666275;-0.8997342
