@@ -1,0 +1,105 @@
+# +###----------------------------------------------###+ #
+# <#            AmazingTowers - v3.0_beta1            #> #
+# <#             Author: Pato14, Marco2124            #> #
+# +###----------------------------------------------###+ #
+
+LOCATIONS:
+  GENERAL:
+    MAP_BORDER:
+    - TheTowers1;34;37;-58
+    - TheTowers1;-6;0;62
+    GENERATORS:
+    - item:
+      - ==: org.bukkit.inventory.ItemStack
+        type: INK_SACK
+        damage: 4
+      coords: TheTowers1;14.5;24;2.5
+    - item:
+      - ==: org.bukkit.inventory.ItemStack
+        type: EXP_BOTTLE
+      coords: TheTowers1;26.5;24;2.5
+    - item:
+      - ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+      coords: TheTowers1;2.5;24;2.5
+    LOBBY: TheTowers1;14.5;118;2.5;-180.14876;2.9999769
+  RED:
+    SPAWN: TheTowers1;14.5;12;54.5;179.48785;-1.2511015E-5
+    POOL:
+    - TheTowers1;15;20;55
+    - TheTowers1;13;20;53
+    POOL_ROOM:
+    - TheTowers1;15;22;55
+    - TheTowers1;13;24;53
+    CHEST_PROTECT:
+    - TheTowers1;29;30;22
+    - TheTowers1;-1;12;43
+  BLUE:
+    SPAWN: TheTowers1;14.5;12;-49.5;-0.45220947;0.9004402
+    POOL:
+    - TheTowers1;13;20;-51
+    - TheTowers1;15;20;-49
+    POOL_ROOM:
+    - TheTowers1;15;22;-49
+    - TheTowers1;13;24;-51
+    CHEST_PROTECT:
+    - TheTowers1;-1;29;-18
+    - TheTowers1;29;12;-39
+  GREEN: {}
+  YELLOW: {}
+  WHITE: {}
+  BLACK: {}
+  ORANGE: {}
+  PURPLE: {}
+  PROTECTED:
+  - - TheTowers1;17;21;-53
+    - TheTowers1;11;10;-47
+  - - TheTowers1;14;13;-39
+    - TheTowers1;14;12;-46
+  - - TheTowers1;6;15;-34
+    - TheTowers1;10;12;-38
+  - - TheTowers1;22;15;-34
+    - TheTowers1;18;12;-38
+  - - TheTowers1;11;21;57
+    - TheTowers1;17;10;51
+  - - TheTowers1;14;12;50
+    - TheTowers1;14;13;43
+  - - TheTowers1;22;15;38
+    - TheTowers1;18;12;42
+  - - TheTowers1;6;15;38
+    - TheTowers1;10;12;42
+  - - TheTowers1;2;235;-10
+    - TheTowers1;26;226;13
+  REFILLCHEST:
+  - TheTowers1;6;12;-38
+  - TheTowers1;7;12;-38
+  - TheTowers1;9;12;-38
+  - TheTowers1;10;12;-38
+  - TheTowers1;10;12;-34
+  - TheTowers1;9;12;-34
+  - TheTowers1;7;12;-34
+  - TheTowers1;6;12;-34
+  - TheTowers1;18;12;-38
+  - TheTowers1;19;12;-38
+  - TheTowers1;21;12;-38
+  - TheTowers1;22;12;-38
+  - TheTowers1;22;12;-34
+  - TheTowers1;21;12;-34
+  - TheTowers1;19;12;-34
+  - TheTowers1;18;12;-34
+  - TheTowers1;22;12;42
+  - TheTowers1;21;12;42
+  - TheTowers1;19;12;42
+  - TheTowers1;18;12;42
+  - TheTowers1;18;12;38
+  - TheTowers1;19;12;38
+  - TheTowers1;21;12;38
+  - TheTowers1;22;12;38
+  - TheTowers1;10;12;42
+  - TheTowers1;9;12;42
+  - TheTowers1;7;12;42
+  - TheTowers1;6;12;42
+  - TheTowers1;6;12;38
+  - TheTowers1;7;12;38
+  - TheTowers1;9;12;38
+  - TheTowers1;10;12;38
